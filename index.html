@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tudo sobre Matrizes Energéticas">
+    <title>Matrizes Energéticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Matrizes Energéticas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#tipos">Tipos de Matrizes</a></li>
+                    <li><a href="#aplicacoes">Aplicações</a></li>
+                    <li><a href="#calculadora">Calculadora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="introducao">
+        <div class="container">
+            <h2>O que são Matrizes Energéticas?</h2>
+            <p>As matrizes energéticas são representações gráficas ou tabelares que mostram as fontes de energia de um determinado local, país ou região, bem como como essa energia é utilizada e distribuída. Elas são ferramentas essenciais para entender o uso e o planejamento energético sustentável.</p>
+        </div>
+    </section>
+
+    <section id="tipos">
+        <div class="container">
+            <h2>Tipos de Matrizes Energéticas</h2>
+            <div class="card">
+                <h3>Matriz Energética Nacional</h3>
+                <p>Representa as fontes de energia utilizadas em um país, considerando os aspectos econômicos e ambientais.</p>
+            </div>
+            <div class="card">
+                <h3>Matriz Energética Regional</h3>
+                <p>Refere-se ao uso de energia em regiões específicas, com foco em características locais e acessibilidade de recursos.</p>
+            </div>
+            <div class="card">
+                <h3>Matriz Energética Setorial</h3>
+                <p>Detalha as fontes de energia de diferentes setores, como transporte, industrial e residencial.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="aplicacoes">
+        <div class="container">
+            <h2>Aplicações das Matrizes Energéticas</h2>
+            <p>As matrizes energéticas são cruciais para o planejamento de políticas públicas, análise de viabilidade de novas fontes de energia e a busca por eficiência energética. Elas também são ferramentas para avaliar o impacto ambiental e promover a transição para fontes renováveis de energia.</p>
+        </div>
+    </section>
+
+    <section id="calculadora">
+        <div class="container">
+            <h2>Calculadora de Proporção de Energia</h2>
+            <form id="energyForm">
+                <label for="source1">Energia Solar (%):</label>
+                <input type="number" id="source1" name="source1" max="100" required><br>
+                <label for="source2">Energia Eólica (%):</label>
+                <input type="number" id="source2" name="source2" max="100" required><br>
+                <label for="source3">Energia Hidrelétrica (%):</label>
+                <input type="number" id="source3" name="source3" max="100" required><br><br>
+                <button type="submit">Calcular</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Matrizes Energéticas | Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
